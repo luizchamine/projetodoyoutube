@@ -42,6 +42,7 @@
             this.comboBoxToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.dateTimerPickerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.labelLinkLabelToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.listBoxToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -123,7 +124,7 @@
             this.componentesToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(675, 30);
+            this.menuStrip1.Size = new System.Drawing.Size(675, 28);
             this.menuStrip1.TabIndex = 7;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -134,9 +135,10 @@
             this.checkedListBoxToolStripMenuItem,
             this.comboBoxToolStripMenuItem,
             this.dateTimerPickerToolStripMenuItem,
-            this.labelLinkLabelToolStripMenuItem});
+            this.labelLinkLabelToolStripMenuItem,
+            this.listBoxToolStripMenuItem});
             this.componentesToolStripMenuItem.Name = "componentesToolStripMenuItem";
-            this.componentesToolStripMenuItem.Size = new System.Drawing.Size(115, 26);
+            this.componentesToolStripMenuItem.Size = new System.Drawing.Size(115, 24);
             this.componentesToolStripMenuItem.Text = "Componentes";
             // 
             // checkBoxToolStripMenuItem
@@ -173,6 +175,13 @@
             this.labelLinkLabelToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.labelLinkLabelToolStripMenuItem.Text = "Label / LinkLabel";
             this.labelLinkLabelToolStripMenuItem.Click += new System.EventHandler(this.labelLinkLabelToolStripMenuItem_Click);
+            // 
+            // listBoxToolStripMenuItem
+            // 
+            this.listBoxToolStripMenuItem.Name = "listBoxToolStripMenuItem";
+            this.listBoxToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.listBoxToolStripMenuItem.Text = "ListBox";
+            this.listBoxToolStripMenuItem.Click += new System.EventHandler(this.listBoxToolStripMenuItem_Click);
             // 
             // F_Principal
             // 
@@ -215,6 +224,7 @@
         private System.Windows.Forms.ToolStripMenuItem comboBoxToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem dateTimerPickerToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem labelLinkLabelToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem listBoxToolStripMenuItem;
     }
 }
 
