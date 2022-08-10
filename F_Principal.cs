@@ -77,5 +77,11 @@ namespace projetodoyoutube
             F_ComboBox f_ComboBox = new F_ComboBox();
             f_ComboBox.ShowDialog();
         }
+
+        private void dateTimerPickerToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            F_DateTimePicker f_DateTimePicker = new F_DateTimePicker();
+            f_DateTimePicker.ShowDialog();
+        }
     }
 }

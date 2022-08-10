@@ -49,7 +49,7 @@ namespace projetodoyoutube
         {
             if (tb_transporte.Text != "")
             {
-                if (cb_transportes.FindString(tb_transporte.Text) < 0)//serve para proibir adicionar itens existentes
+                if (cb_transportes.FindString(tb_transporte.Text) < 0)//serve para proibir adicionar itens já existentes
                 {
                 cb_transportes.Items.Add(tb_transporte.Text);
                 }
